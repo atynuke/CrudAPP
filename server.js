@@ -11,6 +11,7 @@ app.use(morgan("tiny"))
 app.use(bodyParser.urlencoded({extended: true}))
 
 
+
 dotenv.config({path: "config.env"})
 const PORT = process.env.PORT || 2000
 
